@@ -3,7 +3,6 @@ import CodeCorrection from "./components/CodeCorrection.jsx";
 import CodeConverter from "./components/CodeConverter.jsx";
 import CodeExplanation from "./components/CodeExplanation.jsx";
 
-
 const App = () => {
   const [active, setActive] = useState("correction");
   return (

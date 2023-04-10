@@ -29,7 +29,7 @@ const CodeExplanation = () => {
   const explainCode = async () => {
     toast.info("Proccessing Code!", {
       position: "top-right",
-      autoClose: 3000,
+      autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -78,7 +78,7 @@ const CodeExplanation = () => {
     <>
       <ToastContainer
         position="top-right"
-        autoClose={3000}
+        autoClose={5000}
         hideProgressBar={false}
         newestOnTop
         closeOnClick
