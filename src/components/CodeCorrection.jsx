@@ -66,7 +66,7 @@ const CodeCorrection = () => {
       .catch(() => {
         toast.error("Some Error Occured in Generating Code!", {
           position: "top-right",
-          autoClose: 1000,
+          autoClose: 2000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -112,7 +112,7 @@ const CodeCorrection = () => {
       .catch(() => {
         toast.error("Some Error Occured in Generating Explanation!", {
           position: "top-right",
-          autoClose: 1000,
+          autoClose: 2000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,

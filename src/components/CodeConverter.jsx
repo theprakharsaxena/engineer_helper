@@ -30,7 +30,7 @@ const CodeConverter = () => {
   const explainCode = async () => {
     toast.info("Proccessing Code!", {
       position: "top-right",
-      autoClose: 5000,
+      autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -64,7 +64,7 @@ const CodeConverter = () => {
     .catch(() => {
       toast.error("Some Error Occured in Generating Code!", {
         position: "top-right",
-        autoClose: 1000,
+        autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -79,7 +79,7 @@ const CodeConverter = () => {
     <>
       <ToastContainer
         position="top-right"
-        autoClose={5000}
+        autoClose={4000}
         hideProgressBar={false}
         newestOnTop
         closeOnClick
